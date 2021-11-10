@@ -1,0 +1,7 @@
+flavor:
+  type: enum
+  choices:
+    - 'GitHub'
+  default: 'GitHub'
+  description:
+    en: 'Select the Markdown flavor to use.'
