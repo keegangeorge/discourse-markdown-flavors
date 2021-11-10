@@ -1,0 +1,22 @@
+@if $flavor == 'BitBucket' {
+  p > code,
+  li > code,
+  pre > code {
+    padding: 2px 4px;
+  }
+
+  p > code,
+  li > code,
+  pre > code,
+  pre code {
+    background: var(--neutral-muted);
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+  }
+
+  pre code {
+    font-size: 12px;
+    padding: 16px 8px;
+  }
+}

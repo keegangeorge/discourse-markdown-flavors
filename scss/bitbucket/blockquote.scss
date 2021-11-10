@@ -1,0 +1,9 @@
+@if $flavor == 'BitBucket' {
+  .cooked blockquote {
+    padding: 8px 24px;
+    background: none;
+    border-left: 1px solid var(--border-default);
+    margin: 8px 0px 0px;
+    color: var(--blockquote-color);
+  }
+}
