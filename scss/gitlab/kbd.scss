@@ -1,0 +1,17 @@
+@if $flavor == 'GitLab' {
+  .cooked kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 0.6875rem;
+    line-height: 10px;
+    color: #525252;
+    vertical-align: middle;
+    background-color: #fafafa;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-image: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 var(--gray-200, #bfbfbf) inset;
+  }
+}
