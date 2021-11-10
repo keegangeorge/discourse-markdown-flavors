@@ -1,0 +1,19 @@
+@if $flavor == 'BitBucket' {
+  .md-table table thead {
+    border-bottom: 2px solid var(--border-default);
+  }
+
+  .md-table tr {
+    border-bottom: none;
+
+    td,
+    th {
+      padding: 8px 12px;
+    }
+  }
+
+  .md-table tbody {
+    border-top: none;
+    border-bottom: 2px solid var(--border-default);
+  }
+}

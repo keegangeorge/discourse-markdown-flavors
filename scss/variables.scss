@@ -43,3 +43,29 @@
     }
   }
 }
+
+@if $flavor == 'BitBucket' {
+  :root {
+    --border-default: #dfe1e6;
+    --border-muted: #d8dee4;
+    --canvas-default: #fff;
+    --canvas-subtle: #f6f8fa;
+    --neutral-muted: #f4f5f7;
+    --chcklst-color: #d1d1d1;
+    --heading-color: #172b4d;
+    --blockquote-color: hsl(218, 14%, 54%);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --heading-color: hsl(218, 54%, 85%);
+      --border-default: hsl(223, 12%, 50%);
+      --blockquote-color: hsl(218, 14%, 70%);
+      --border-muted: #21262d;
+      --canvas-default: #0d1117;
+      --canvas-subtle: #161b22;
+      --neutral-muted: #6e768166;
+      --chcklst-color: #757575;
+    }
+  }
+}
