@@ -3,6 +3,7 @@ flavor:
   choices:
     - 'GitHub'
     - 'GitLab'
+    - 'BitBucket'
   default: 'GitHub'
   description:
     en: 'Select the Markdown flavor to use.'
