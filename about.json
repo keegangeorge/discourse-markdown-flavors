@@ -1,0 +1,9 @@
+{
+  "name": "Markdown Flavors",
+  "component": true,
+  "about_url": "https://github.com/keegangeorge/discourse-markdown-flavors",
+  "license_url": "https://github.com/keegangeorge/discourse-markdown-flavors/blob/main/LICENSE.txt",
+  "theme_version": "0.1",
+  "assets": {
+  }
+}
