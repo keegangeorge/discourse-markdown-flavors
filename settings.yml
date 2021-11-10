@@ -2,6 +2,7 @@ flavor:
   type: enum
   choices:
     - 'GitHub'
+    - 'GitLab'
   default: 'GitHub'
   description:
     en: 'Select the Markdown flavor to use.'

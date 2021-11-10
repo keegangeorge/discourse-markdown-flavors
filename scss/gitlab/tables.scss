@@ -1,0 +1,24 @@
+@if $flavor == 'GitLab' {
+  .md-table table {
+    border: 1px solid var(--border-default);
+  }
+
+  .md-table table thead tr {
+    background-color: var(--canvas-default);
+    border-top: 1px solid var(--border-default);
+  }
+
+  .md-table tbody {
+    border-top: none;
+  }
+
+  .md-table table thead th,
+  .md-table table tbody td {
+    padding: 6px 13px;
+    border: 1px solid var(--border-default);
+  }
+
+  .md-table:not(.code) tr th {
+    border-bottom: solid 2px var(--border-strong);
+  }
+}

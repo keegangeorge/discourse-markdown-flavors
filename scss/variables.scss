@@ -19,3 +19,27 @@
     }
   }
 }
+
+@if $flavor == 'GitLab' {
+  :root {
+    --border-default: #dbdbdb;
+    --border-strong: #bfbfbf;
+    --border-muted: #e1e1e1;
+    --canvas-default: #f0f0f0;
+    --canvas-subtle: #f6f8fa;
+    --neutral-muted: #afb8c133;
+    --chcklst-color: #dfdfdf;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --border-default: #30363d;
+      --border-muted: #21262d;
+      --border-strong: hsl(0, 0%, 30%);
+      --canvas-default: #0d1117;
+      --canvas-subtle: #161b22;
+      --neutral-muted: #6e768166;
+      --chcklst-color: #757575;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@if $flavor == 'GitLab' {
+  .cooked blockquote {
+    padding: 8px 24px;
+    background: none;
+    color: var(--primary-low-mid);
+    border-left: 3px solid var(--canvas-default);
+  }
+}
