@@ -1,0 +1,24 @@
+@if $flavor == 'GitHub' {
+  .md-table table {
+    border: 1px solid var(--border-default);
+  }
+
+  .md-table table tr {
+    background-color: var(--canvas-default);
+    border-top: 1px solid var(--border-default);
+  }
+
+  .md-table tbody {
+    border-top: none;
+  }
+
+  .md-table table thead th,
+  .md-table table tbody td {
+    padding: 6px 13px;
+    border: 1px solid var(--border-default);
+  }
+
+  .md-table tbody tr:nth-child(2n) {
+    background-color: var(--canvas-subtle);
+  }
+}

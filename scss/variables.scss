@@ -1,0 +1,21 @@
+@if $flavor == 'GitHub' {
+  :root {
+    --border-default: #d0d7de;
+    --border-muted: #d8dee4;
+    --canvas-default: #fff;
+    --canvas-subtle: #f6f8fa;
+    --neutral-muted: #afb8c133;
+    --chcklst-color: #d1d1d1;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --border-default: #30363d;
+      --border-muted: #21262d;
+      --canvas-default: #0d1117;
+      --canvas-subtle: #161b22;
+      --neutral-muted: #6e768166;
+      --chcklst-color: #757575;
+    }
+  }
+}

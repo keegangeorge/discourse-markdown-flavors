@@ -1,0 +1,16 @@
+@if $flavor == 'GitHub' {
+  .cooked kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-family: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+      Liberation Mono, monospace;
+    line-height: 10px;
+    color: var(--color-fg-default);
+    vertical-align: middle;
+    background-color: var(--canvas-subtle);
+    border: solid 1px var(--neutral-muted);
+    border-bottom-color: var(--neutral-muted);
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 var(--neutral-muted);
+  }
+}
