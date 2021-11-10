@@ -1,0 +1,15 @@
+@if $flavor == 'GitHub' {
+  p > code,
+  li > code,
+  pre > code {
+    background: var(--neutral-muted);
+    font-size: 85%;
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+  }
+
+  pre code {
+    padding: 16px;
+    background: var(--canvas-subtle);
+  }
+}

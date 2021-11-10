@@ -1,0 +1,7 @@
+@if $flavor == 'GitHub' {
+  .cooked blockquote {
+    padding: 0 1em;
+    background: none;
+    border-color: var(--border-default);
+  }
+}

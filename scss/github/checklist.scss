@@ -1,0 +1,11 @@
+@if $flavor == 'GitHub' {
+  span.chcklst-box:not(.checked).fa-square-o:before {
+    background: var(--chcklst-color);
+  }
+  span.chcklst-box.checked:before {
+    background: var(--chcklst-color);
+  }
+  span.chcklst-box.checked.fa-check-square-o:before {
+    background: var(--chcklst-color);
+  }
+}
