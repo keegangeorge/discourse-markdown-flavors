@@ -10,7 +10,7 @@ This theme component allows you to select a flavor for which markdown style you 
 
 | Title                 | Link                                                                                                 |
 | --------------------- | ---------------------------------------------------------------------------------------------------- |
-| 📄 **Meta Topic**     | [View](https://meta.discourse.org/u/keegan)                                                          |
+| 📄 **Documentation**  | [Read](https://thepavilion.io/t/markdown-flavors/4947)                                               |
 | 👨‍💻 **Author**         | [Keegan George](https://github.com/keegangeorge/)                                                    |
 | #️⃣ **Version**        | `1.0`                                                                                                |
 | ❓ **How to Install** | [Installation Guide](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682) |
