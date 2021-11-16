@@ -8,14 +8,16 @@
     --chcklst-color: #d1d1d1;
   }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --border-default: #30363d;
-      --border-muted: #21262d;
-      --canvas-default: #0d1117;
-      --canvas-subtle: #161b22;
-      --neutral-muted: #6e768166;
-      --chcklst-color: #757575;
+  @if $auto_dark_theme == 'true' {
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --border-default: #30363d;
+        --border-muted: #21262d;
+        --canvas-default: #0d1117;
+        --canvas-subtle: #161b22;
+        --neutral-muted: #6e768166;
+        --chcklst-color: #757575;
+      }
     }
   }
 }
@@ -31,15 +33,17 @@
     --chcklst-color: #dfdfdf;
   }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --border-default: #30363d;
-      --border-muted: #21262d;
-      --border-strong: hsl(0, 0%, 30%);
-      --canvas-default: #0d1117;
-      --canvas-subtle: #161b22;
-      --neutral-muted: #6e768166;
-      --chcklst-color: #757575;
+  @if $auto_dark_theme == 'true' {
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --border-default: #30363d;
+        --border-muted: #21262d;
+        --border-strong: hsl(0, 0%, 30%);
+        --canvas-default: #0d1117;
+        --canvas-subtle: #161b22;
+        --neutral-muted: #6e768166;
+        --chcklst-color: #757575;
+      }
     }
   }
 }
@@ -56,16 +60,18 @@
     --blockquote-color: hsl(218, 14%, 54%);
   }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --heading-color: hsl(218, 54%, 85%);
-      --border-default: hsl(223, 12%, 50%);
-      --blockquote-color: hsl(218, 14%, 70%);
-      --border-muted: #21262d;
-      --canvas-default: #0d1117;
-      --canvas-subtle: #161b22;
-      --neutral-muted: #6e768166;
-      --chcklst-color: #757575;
+  @if $auto_dark_theme == 'true' {
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --heading-color: hsl(218, 54%, 85%);
+        --border-default: hsl(223, 12%, 50%);
+        --blockquote-color: hsl(218, 14%, 70%);
+        --border-muted: #21262d;
+        --canvas-default: #0d1117;
+        --canvas-subtle: #161b22;
+        --neutral-muted: #6e768166;
+        --chcklst-color: #757575;
+      }
     }
   }
 }

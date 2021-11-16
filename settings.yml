@@ -7,3 +7,8 @@ flavor:
   default: 'GitHub'
   description:
     en: 'Select the Markdown flavor to use.'
+auto_dark_theme:
+  type: bool
+  default: true
+  description:
+    en: 'Changes the color scheme to dark mode automatically based on users system dark mode setting.'
